@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "@/app/ui/global.css";
 
-export const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
